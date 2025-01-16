@@ -1,6 +1,6 @@
 .hide-modal{
     /* oculta un elemento cuando se aplica */
-    /* display: none !important;  */
+    display: none !important; 
 }
 
 

@@ -1,4 +1,5 @@
 
+import { showModal } from '../render-modal/render-modal';
 import './render-add-button.css'
 
 /**
@@ -22,7 +23,7 @@ export const renderAddButton = (element) => {
         // if (!callback) return;// si no existe el callback no hace nada
 
         // callback(); // si existe lo llama
-        throw Error ('No implementado');
+        showModal();
     });
 
 } 
